@@ -1,0 +1,28 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# === CONFIG ===
+CSV_PATH = r"C:\Users\saadm\ecg_apnea.csv"  # <-- Update this path
+SAMPLING_RATE = 100  # Hz
+SEGMENT_DURATION = 20  # second
+
+# === LOAD CSV ===
+df = pd.read_csv(CSV_PATH)
+
+# Check columns
+if "Time (s)" not in df.columns or "ECG" not in df.columns:
+    raise ValueError("CSV must contain 'Time (s)' and 'ECG' columns")
+
+# === SELECT 5-SECOND SEGMENT ===
+segment_samples = SEGMENT_DURATION * SAMPLING_RATE
+ecg_segment = df.iloc[:segment_samples]
+
+# === PLOT ===
+plt.figure(figsize=(10, 4))
+plt.plot(ecg_segment["Time (s)"], ecg_segment["ECG"], color="blue", linewidth=1)
+plt.title("ECG Signal (First 5 Seconds)")
+plt.xlabel("Time (s)")
+plt.ylabel("ECG Amplitude")
+plt.grid(True)
+plt.tight_layout()
+plt.show()

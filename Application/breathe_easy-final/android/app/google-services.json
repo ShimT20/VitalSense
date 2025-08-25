@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "785170886847",
+    "project_id": "breatheeasy-482fb",
+    "storage_bucket": "breatheeasy-482fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785170886847:android:47b9dc5187a2f5ed49560a",
+        "android_client_info": {
+          "package_name": "com.ASO.breatheeasy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoxn7Lxs94qu8_zctcw8N8dWWUcCOew28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+C:/Users/Omar/Desktop/breathe_easy-final/breathe_easy-final/android/app/.cxx/Debug/5h3w4s6m/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Omar/Desktop/breathe_easy-final/breathe_easy-final/android/app/.cxx/Debug/5h3w4s6m/x86_64/CMakeFiles/rebuild_cache.dir
