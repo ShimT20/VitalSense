@@ -33,3 +33,9 @@ This project was awarded top honors in the College of Computing & Informatics co
 - Omar Naqaweh
 - Saad Mahfood
 - Ali Johar
+
+## References
+- Apnea-ECG Database
+  * https://www.physionet.org/content/apnea-ecg/1.0.0/
+- CardioGAN
+  * https://github.com/pritamqu/ppg2ecg-cardiogan?tab=readme-ov-file
