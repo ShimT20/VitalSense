@@ -9,7 +9,7 @@ ppg_file_path = r'C:\ppg_dummy_data.csv'  # <-- raw string to avoid backslash is
 # Send the POST request with the file
 with open(ppg_file_path, 'rb') as f:
     files = {'file': ('ppg_data.csv', f, 'text/plain')}
-    response = requests.post('http://192.168.0.122:8000/upload', files=files)
+    response = requests.post('http://192.168.0.0:8000/upload', files=files)
 
 # Check the response
 if response.status_code == 200:
